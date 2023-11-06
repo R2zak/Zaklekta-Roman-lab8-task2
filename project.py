@@ -1,3 +1,7 @@
+"""Project with function that check game board and returns 
+True or False depending on the fulfillment of the rules of the game
+https://github.com/R2zak/Zaklekta-Roman-lab8-task2
+"""
 def validate_board(board:list) -> bool:
     """
     list->bool

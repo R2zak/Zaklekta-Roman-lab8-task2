@@ -22,3 +22,10 @@ def validate_board(board:list) -> bool:
         for j in num:
             if l.count(j)>1:
                 return False
+    for i in range(5):
+        panel=""
+        panel+=board[8-i][0+i]
+        for j in range (1,5):
+            panel+=board[8-i-j][0+i]
+            panel+=board[8-i][0+i+j]
+        color_panels.append(panel)

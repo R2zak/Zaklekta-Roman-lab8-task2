@@ -18,3 +18,7 @@ def validate_board(board:list) -> bool:
         for j in num:
             if i.count(j)>1:
                 return False
+    for l in pillars:
+        for j in num:
+            if l.count(j)>1:
+                return False
